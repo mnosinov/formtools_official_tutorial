@@ -1,6 +1,8 @@
-from django.contrib import admin
 from django.urls import path
 
+from .views import index, FormWizardView
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', index, name='index'),
+    path('start_wizard/', FormWizardView.as_view(), name='start_wizard'),
 ]
