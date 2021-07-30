@@ -8,3 +8,6 @@ sample project - to show how to use django-formtools
 
 - https://swapps.com/blog/how-to-do-a-wizard-form/
 
+
+# .env file:
+SECRET_KEY=some_very_long_secret_string
